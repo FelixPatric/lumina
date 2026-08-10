@@ -20,6 +20,11 @@ ul{
 img{
     max-width: 100%;
 }
+/* Utility Classes */
+.bg-primary{
+    background-color: #fcf5e9;
+}
+
 
 /* container */
 
@@ -69,12 +74,35 @@ img{
 .current{
     background-color: #fcf5e9;
     font-weight: 600
-}   
+} 
+
+/* Hero Section */
+.hero{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
 
 /* Media Queries */
 @media(max-width:768px){
     .header .header-flex{
         flex-direction: column;
         gap: 1.5rem;
+    }
+    .hero{
+        height: 300px;
+    }
+
+    .hero h2{
+        font-size: 1.8rem;
     }
 }
