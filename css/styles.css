@@ -33,6 +33,12 @@ img{
     background-color: var(--primary-color);
 }
 
+.section-heading{
+    font-size: 1.grem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 
 /* container */
 
@@ -156,6 +162,26 @@ footer a{
     text-align: center;
     font-size: 0.95rem;
 }
+
+/* Services Section */
+.services{
+    background:#333;
+    color: #fff;
+    padding: 3rem 0 4rem;
+
+}
+
+.services-flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.service-item h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+
+
 
 /* Media Queries */
 @media(max-width:768px){
