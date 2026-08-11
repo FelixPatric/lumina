@@ -30,6 +30,7 @@ img{
 }
 
 /* Utility Classes */
+
 .bg-primary{
     background-color: var(--primary-color);
     color:#333;
@@ -43,8 +44,24 @@ img{
 .bg-dark .bg-primary{
     padding: 0 0.3rem;
 }
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #333;
+    background: transparent;    
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+
 .section-heading{
-    font-size: 1.grem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -59,6 +76,7 @@ img{
     width: 1px;
 }
 
+/* End of Utility Classes */
 
 /* container */
 
@@ -75,6 +93,8 @@ img{
 .container-sm{
     max-width: var(--container-narrow);
 }
+
+/* End of container */
 
 /* Header */
 
@@ -110,6 +130,9 @@ img{
     font-weight: 600
 } 
 
+/* End of Header */
+
+
 /* Hero Section */
 .hero{
     height: 500px;
@@ -125,6 +148,8 @@ img{
     font-weight: normal;
 }
 
+/* End of Hero Section */
+
 /* Gallery Section */
 
 .gallery-flex{
@@ -134,6 +159,7 @@ img{
     gap: 20px;
 
 }
+
 
 .gallery-item{
     width: calc(33.333% - 20px);
@@ -148,7 +174,11 @@ img{
     opacity: 0.9;
 }
 
+/* End of Gallery Section */
+
+
 /* Footer Section */
+
 .footer{
     border-top: 1px solid #aaa;
     padding: 2rem 1.5rem;
@@ -183,7 +213,11 @@ footer a{
     font-size: 0.95rem;
 }
 
+/* End of Footer Section */
+
+
 /* Services Section */
+
 .services{
    padding: 3rem 0 4rem;
 
@@ -199,8 +233,11 @@ footer a{
     margin-bottom: 0.7rem;
 }
 
+/* End of Services Section */
+
 
 /* Team Section */
+
 .team{
     padding: 3rem 0 4rem;
 }
@@ -214,7 +251,11 @@ footer a{
     border-radius: 10px;
 }
 
+/* End of Team Section */
+
+
 /* Contact Section */
+
 .contact{
     padding: 3rem 0 4rem;
 }
@@ -223,7 +264,7 @@ footer a{
     text-align: center;
     margin-bottom: 2rem;
 }
-
+ 
 .form-group{
     margin:2rem 0;
 
@@ -247,7 +288,16 @@ footer a{
     outline: 0;
 }
 
+.contact button{
+    width: 100%;
+}
+
+/* End of Contact Section */
+
+
+
 /* Media Queries */
+
 @media(max-width:768px){
     .header .header-flex, .footer .footer-flex, .services .services-flex, .team .team-flex{
         flex-direction: column;
@@ -267,3 +317,5 @@ footer a{
         text-align: center;
     }
 }
+
+/* End of Media Queries */
