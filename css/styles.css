@@ -182,10 +182,25 @@ footer a{
 }
 
 
+/* Team Section */
+.team{
+    padding: 3rem 0 4rem;
+}
+
+.team-flex{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.team img{
+    border-radius: 10px;
+}
+
+
 
 /* Media Queries */
 @media(max-width:768px){
-    .header .header-flex, .footer .footer-flex{
+    .header .header-flex, .footer .footer-flex, .services .services-flex, .team .team-flex{
         flex-direction: column;
         gap: 1.5rem;
     }
