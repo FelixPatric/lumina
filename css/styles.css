@@ -27,6 +27,7 @@ ul{
 img{
     max-width: 100%;
 }
+
 /* Utility Classes */
 .bg-primary{
     background-color: var(--primary-color);
@@ -98,6 +99,8 @@ img{
     font-weight: normal;
 }
 
+/* Gallery Section */
+
 .gallery-flex{
     display: flex;
     justify-content: center;
@@ -145,6 +148,7 @@ img{
 footer a{
     margin: 0.2rem;
 }
+
 /* Media Queries */
 @media(max-width:768px){
     .header .header-flex, .footer .footer-flex{
